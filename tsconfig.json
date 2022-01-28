@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "rootDir": "./",
+    // "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "tests/*": ["__tests__/*"]
+    }
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./__tests__/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    // "./dist"
+  ]
+}
